@@ -22,7 +22,8 @@ namespace MVC_gg.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            /*أخرب على ذيبان*/
+            return View(/*أخرب على ذيبان*/);
         }
 
         public IActionResult About()
