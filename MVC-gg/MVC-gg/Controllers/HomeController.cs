@@ -27,7 +27,7 @@ namespace MVC_gg.Controllers
 
         public IActionResult About()
         {
-            return View();
+            return Ok("المعروف لا يعرف");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
