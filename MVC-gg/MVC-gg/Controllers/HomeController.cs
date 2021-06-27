@@ -14,12 +14,18 @@ namespace MVC_gg.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult /*أخرب على أحمد*/ Index()
+        { /*أخرب على أحمد*/
+            return View(/*أخرب على أحمد*/);
+            /*أخرب على أحمد*/
+        }
+
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
